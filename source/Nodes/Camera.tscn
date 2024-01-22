@@ -1,0 +1,4 @@
+[gd_scene format=3 uid="uid://uqeylqkxivai"]
+
+[node name="Camera" type="Camera2D"]
+anchor_mode = 0
