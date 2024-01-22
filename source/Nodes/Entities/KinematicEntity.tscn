@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://44j3dv82venc"]
+
+[ext_resource type="Script" path="res://Nodes/Entities/KinematicEntity.cs" id="1_bri5n"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_yv6u6"]
+radius = 8.0
+
+[node name="KinematicEntity" type="CharacterBody2D"]
+script = ExtResource("1_bri5n")
+
+[node name="CollisionShape" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_yv6u6")
+disabled = true
+
+[node name="Sprite" type="Sprite2D" parent="."]
+visible = false

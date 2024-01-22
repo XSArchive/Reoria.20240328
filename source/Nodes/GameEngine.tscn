@@ -1,9 +1,15 @@
-[gd_scene load_steps=3 format=3 uid="uid://b454uk7jvlvtg"]
+[gd_scene load_steps=4 format=3 uid="uid://b454uk7jvlvtg"]
 
 [ext_resource type="Script" path="res://Nodes/GameEngine.cs" id="1_y340y"]
 [ext_resource type="PackedScene" uid="uid://uqeylqkxivai" path="res://Nodes/Camera.tscn" id="2_s2aib"]
+[ext_resource type="PackedScene" uid="uid://c7tq1cokgl5vl" path="res://Nodes/Entities/Players/Player.tscn" id="3_bbgnm"]
 
 [node name="GameEngine" type="Node2D"]
 script = ExtResource("1_y340y")
 
 [node name="Camera" parent="." instance=ExtResource("2_s2aib")]
+
+[node name="Nodes" type="Node" parent="."]
+
+[node name="Player" parent="Nodes" instance=ExtResource("3_bbgnm")]
+position = Vector2(128, 96)

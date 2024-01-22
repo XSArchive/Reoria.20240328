@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://bbfbxyf7igsss"]
+
+[ext_resource type="Script" path="res://Nodes/Entities/StaticEntity.cs" id="1_p8g45"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_g8sx4"]
+radius = 8.0
+
+[node name="StaticEntity" type="StaticBody2D"]
+script = ExtResource("1_p8g45")
+
+[node name="CollisionShape" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_g8sx4")
+disabled = true
+
+[node name="Sprite" type="Sprite2D" parent="."]
+visible = false
