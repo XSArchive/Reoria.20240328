@@ -25,16 +25,16 @@ public partial class GameEngine : Node2D
 		}
 	}
 
-    /// <summary>
-    /// Defines the reference to the primary <see cref="Camera2D"/>.
-    /// </summary>
-    [Export]
-    public Camera2D? Camera { get; protected set; }
+	/// <summary>
+	/// Defines the reference to the primary <see cref="Camera2D"/>.
+	/// </summary>
+	[Export]
+	public Camera2D? Camera { get; protected set; }
 
-    /// <summary>
-    /// Constructs a new <see cref="GameEngine"/> instance and assignes the reference to it to <see cref="Instance"/>.
-    /// </summary>
-    public GameEngine()
+	/// <summary>
+	/// Constructs a new <see cref="GameEngine"/> instance and assignes the reference to it to <see cref="Instance"/>.
+	/// </summary>
+	public GameEngine()
 	{
 		// Check to see if the root node has already been created.
 		if (instance is not null)
@@ -58,20 +58,20 @@ public partial class GameEngine : Node2D
 			// Assign this instance of the root node to the instance property.
 			instance = null;
 		}
-    }
+	}
 
-    /// <summary>
-    /// Called when the node is "ready", i.e. when both the node and its children have
-    /// entered the scene tree. If the node has children, their <see cref="Node._Ready"/> 
-    /// callbacks get triggered first, and the parent node will receive the ready 
-    /// notification afterwards.
-    /// </summary>
-    public override void _Ready()
-    {
-        // Fetch and assign the child nodes if they have not been assigned yet.
-        this.Camera ??= this.GetNode<Camera2D>("Camera");
+	/// <summary>
+	/// Called when the node is "ready", i.e. when both the node and its children have
+	/// entered the scene tree. If the node has children, their <see cref="Node._Ready"/> 
+	/// callbacks get triggered first, and the parent node will receive the ready 
+	/// notification afterwards.
+	/// </summary>
+	public override void _Ready()
+	{
+		// Fetch and assign the child nodes if they have not been assigned yet.
+		this.Camera ??= this.GetNode<Camera2D>("Camera");
 
-        // Pass to the base class' function.
-        base._Ready();
-    }
+		// Pass to the base class' function.
+		base._Ready();
+	}
 }
