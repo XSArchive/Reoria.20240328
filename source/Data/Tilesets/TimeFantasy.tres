@@ -1,3 +1,34 @@
-[gd_resource type="TileSet" format=3 uid="uid://bcpgbbs3d4imo"]
+[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://bcpgbbs3d4imo"]
+
+[ext_resource type="Texture2D" uid="uid://c1epn1jr1ws1p" path="res://Assets/Graphics/Tilesets/TimeFantasy/trees.png" id="1_85neg"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_i47ev"]
+resource_name = "Trees"
+texture = ExtResource("1_85neg")
+0:0/size_in_atlas = Vector2i(3, 4)
+0:0/0 = 0
+3:0/size_in_atlas = Vector2i(3, 4)
+3:0/0 = 0
+6:0/size_in_atlas = Vector2i(2, 4)
+6:0/0 = 0
+8:0/size_in_atlas = Vector2i(2, 4)
+8:0/0 = 0
+8:4/size_in_atlas = Vector2i(2, 4)
+8:4/0 = 0
+6:4/size_in_atlas = Vector2i(2, 4)
+6:4/0 = 0
+3:4/size_in_atlas = Vector2i(3, 4)
+3:4/0 = 0
+0:4/size_in_atlas = Vector2i(3, 4)
+0:4/0 = 0
+0:8/size_in_atlas = Vector2i(3, 4)
+0:8/0 = 0
+3:8/size_in_atlas = Vector2i(3, 4)
+3:8/0 = 0
+6:8/size_in_atlas = Vector2i(2, 4)
+6:8/0 = 0
+8:8/size_in_atlas = Vector2i(2, 4)
+8:8/0 = 0
 
 [resource]
+sources/0 = SubResource("TileSetAtlasSource_i47ev")
