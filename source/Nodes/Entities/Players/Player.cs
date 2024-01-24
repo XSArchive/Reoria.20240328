@@ -20,4 +20,27 @@ public partial class Player : KinematicEntity, IPlayer
         // Pass to the base class' function.
         base._Ready();
     }
+
+    public override void _Process(double delta)
+    {
+        this.Velocity = Vector2.Zero;
+        var move_speed = 32;
+
+        if (Input.IsKeyPressed(Key.W)) { this.Velocity += Vector2.Up * move_speed; }
+        if (Input.IsKeyPressed(Key.S)) { this.Velocity += Vector2.Down * move_speed; }
+        if (Input.IsKeyPressed(Key.A)) { this.Velocity += Vector2.Left * move_speed; }
+        if (Input.IsKeyPressed(Key.D)) { this.Velocity += Vector2.Right * move_speed; }
+
+        if(this.Velocity != Vector2.Zero)
+        {
+            this.CollisionShape.SetDeferred("Disabled", false);
+            _ = this.MoveAndSlide();
+        }
+        else
+        {
+            this.CollisionShape.SetDeferred("Disabled", true);
+        }
+
+        base._Process(delta);
+    }
 }
