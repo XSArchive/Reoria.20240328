@@ -10,12 +10,12 @@ public partial class GameEngine : Node2D
 	/// <summary>
 	/// The reference to the root <see cref="Node"/>.
 	/// </summary>
-	private static GameEngine? instance;
+	private static GameEngine instance;
 
 	/// <summary>
 	/// The reference to the root <see cref="Node"/>.
 	/// </summary>
-	public static GameEngine? Instance
+	public static GameEngine Instance
 	{
 		get
 		{
@@ -29,7 +29,7 @@ public partial class GameEngine : Node2D
 	/// Defines the reference to the primary <see cref="Camera2D"/>.
 	/// </summary>
 	[Export]
-	public Camera2D? Camera { get; protected set; }
+	public Camera2D Camera { get; protected set; }
 
 	/// <summary>
 	/// Constructs a new <see cref="GameEngine"/> instance and assignes the reference to it to <see cref="Instance"/>.

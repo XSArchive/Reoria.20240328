@@ -13,12 +13,12 @@ public partial class RigidEntity : RigidBody2D, IRigidEntity
     /// allows to edit it. This can give a detection shape to an <see cref="Area2D"/> or turn
     /// a <see cref="PhysicsBody2D"/> into a solid object.
     /// </summary>
-    public CollisionShape2D? CollisionShape { get; protected set; }
+    public CollisionShape2D CollisionShape { get; protected set; }
     /// <summary>
     /// A node that displays a 2D texture. The texture displayed can be a region from
     /// a larger atlas texture, or a frame from a sprite sheet animation.
     /// </summary>
-	public Sprite2D? Sprite { get; protected set; }
+	public Sprite2D Sprite { get; protected set; }
 
     /// <summary>
     /// Called when the node is "ready", i.e. when both the node and its children have
@@ -29,8 +29,8 @@ public partial class RigidEntity : RigidBody2D, IRigidEntity
     public override void _Ready()
     {
         // Fetch and assign the child node variables.
-        this.CollisionShape = this.GetNode<CollisionShape2D?>("CollisionShape");
-        this.Sprite = this.GetNode<Sprite2D?>("Sprite");
+        this.CollisionShape = this.GetNode<CollisionShape2D>("CollisionShape");
+        this.Sprite = this.GetNode<Sprite2D>("Sprite");
 
         // Pass to the base class' function.
         base._Ready();

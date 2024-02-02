@@ -12,10 +12,10 @@ public interface IEntity
     /// allows to edit it. This can give a detection shape to an <see cref="Area2D"/> or turn
     /// a <see cref="PhysicsBody2D"/> into a solid object.
     /// </summary>
-    CollisionShape2D? CollisionShape { get; }
+    CollisionShape2D CollisionShape { get; }
     /// <summary>
     /// A node that displays a 2D texture. The texture displayed can be a region from
     /// a larger atlas texture, or a frame from a sprite sheet animation.
     /// </summary>
-	Sprite2D? Sprite { get; }
+	Sprite2D Sprite { get; }
 }
