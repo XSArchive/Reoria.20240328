@@ -15,16 +15,14 @@ public partial class Player : KinematicEntity, IPlayer
     /// callbacks get triggered first, and the parent node will receive the ready 
     /// notification afterwards.
     /// </summary>
-    public override void _Ready()
-    {
+    public override void _Ready() =>
         // Pass to the base class' function.
         base._Ready();
-    }
 
     public override void _Process(double delta)
     {
         this.Velocity = Vector2.Zero;
-        var move_speed = 32;
+        float move_speed = 32f;
 
         if (Input.IsKeyPressed(Key.W)) { this.Velocity += Vector2.Up * move_speed; }
         if (Input.IsKeyPressed(Key.S)) { this.Velocity += Vector2.Down * move_speed; }
