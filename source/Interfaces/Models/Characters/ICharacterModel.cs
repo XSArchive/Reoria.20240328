@@ -1,4 +1,4 @@
-﻿namespace Reoria.Interfaces.Models.Accounts;
+﻿namespace Reoria.Interfaces.Models.Characters;
 
 /// <summary>
 /// Provides the properties and functions of character data models.
