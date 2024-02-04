@@ -1,4 +1,5 @@
 ﻿using Reoria.Interfaces.Models.Accounts;
+using Reoria.Models.Characters;
 
 namespace Reoria.Models.Accounts;
 
@@ -15,4 +16,8 @@ public partial class AccountModel : Model, IAccountModel
     /// A string that represents the password used to authenticate this account.
     /// </summary>
     public string Password { get; set; } = string.Empty;
+    /// <summary>
+    /// A list of <see cref="CharacterModel"/> classes that this account owns.
+    /// </summary>
+    public List<CharacterModel> Characters;
 }
