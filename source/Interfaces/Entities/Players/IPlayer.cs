@@ -1,6 +1,6 @@
-﻿using Reoria.Nodes.Entitites.Interfaces;
+﻿using Reoria.Interfaces.Entities;
 
-namespace Reoria.Nodes.Entitites.Players.Interfaces;
+namespace Reoria.Interfaces.Entities.Players;
 
 /// <summary>
 /// Defines the properties and functions of nodes controlled by players.

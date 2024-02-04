@@ -1,4 +1,4 @@
-﻿namespace Reoria.Models.Interfaces;
+﻿namespace Reoria.Interfaces.Models;
 
 /// <summary>
 /// Provides the properties and functions of data models.
