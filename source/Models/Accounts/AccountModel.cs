@@ -23,5 +23,6 @@ public partial class AccountModel : Model, IAccountModel
     /// <summary>
     /// A list of <see cref="CharacterModel"/> classes that this account owns.
     /// </summary>
-    public List<CharacterModel> Characters;
+    [Export]
+    public CharacterModel[] Characters = Array.Empty<CharacterModel>();
 }
