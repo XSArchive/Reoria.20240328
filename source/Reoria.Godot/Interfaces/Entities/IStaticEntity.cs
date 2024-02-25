@@ -1,6 +1,6 @@
 ﻿using Godot;
 
-namespace Reoria.Interfaces.Entities;
+namespace Reoria.Godot.Interfaces.Entities;
 
 /// <summary>
 /// Provides the properties and functions of nodes that inherit from <see cref="StaticBody2D"/>.

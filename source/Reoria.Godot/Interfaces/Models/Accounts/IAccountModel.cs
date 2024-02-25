@@ -1,4 +1,4 @@
-﻿namespace Reoria.Interfaces.Models.Accounts;
+﻿namespace Reoria.Godot.Interfaces.Models.Accounts;
 
 /// <summary>
 /// Provides the properties and functions of account data models.

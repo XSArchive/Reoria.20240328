@@ -1,7 +1,7 @@
 ﻿using Godot;
-using Reoria.Interfaces.Models.Characters;
+using Reoria.Godot.Interfaces.Models.Characters;
 
-namespace Reoria.Models.Characters;
+namespace Reoria.Godot.Models.Characters;
 
 /// <summary>
 /// Defines the properties and functions of character data models.

@@ -1,6 +1,7 @@
 using Godot;
+using System;
 
-namespace Reoria.Nodes;
+namespace Reoria.Godot.Nodes;
 
 /// <summary>
 /// Defines functionality of the main <see cref="Node2D"/>.

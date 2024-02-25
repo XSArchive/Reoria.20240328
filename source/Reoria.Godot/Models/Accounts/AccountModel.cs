@@ -1,8 +1,9 @@
 ﻿using Godot;
-using Reoria.Interfaces.Models.Accounts;
-using Reoria.Models.Characters;
+using Reoria.Godot.Interfaces.Models.Accounts;
+using Reoria.Godot.Models.Characters;
+using System;
 
-namespace Reoria.Models.Accounts;
+namespace Reoria.Godot.Models.Accounts;
 
 /// <summary>
 /// Defines the properties and functions of account data models.

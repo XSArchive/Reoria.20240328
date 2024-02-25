@@ -1,6 +1,4 @@
-﻿using Reoria.Interfaces.Entities;
-
-namespace Reoria.Interfaces.Entities.Players;
+﻿namespace Reoria.Godot.Interfaces.Entities.Players;
 
 /// <summary>
 /// Defines the properties and functions of nodes controlled by players.

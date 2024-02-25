@@ -1,5 +1,5 @@
 using Godot;
-using Reoria.Interfaces.Entities;
+using Reoria.Godot.Interfaces.Entities;
 
 namespace Reoria.Godot.Nodes.Entities;
 

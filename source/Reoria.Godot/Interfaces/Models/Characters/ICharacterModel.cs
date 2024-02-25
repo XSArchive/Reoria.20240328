@@ -1,4 +1,4 @@
-﻿namespace Reoria.Interfaces.Models.Characters;
+﻿namespace Reoria.Godot.Interfaces.Models.Characters;
 
 /// <summary>
 /// Provides the properties and functions of character data models.

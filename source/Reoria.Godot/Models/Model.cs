@@ -1,7 +1,7 @@
 ﻿using Godot;
-using Reoria.Interfaces.Models;
+using Reoria.Godot.Interfaces.Models;
 
-namespace Reoria.Models;
+namespace Reoria.Godot.Models;
 
 /// <summary>
 /// Defines the properties and functions of data models.

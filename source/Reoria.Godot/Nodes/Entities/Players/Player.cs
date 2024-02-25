@@ -1,6 +1,6 @@
 ﻿using Godot;
-using Reoria.Interfaces.Entities.Players;
-using Reoria.Nodes;
+using Reoria.Godot.Interfaces.Entities.Players;
+using Reoria.Godot.Nodes;
 
 namespace Reoria.Godot.Nodes.Entities.Players;
 
