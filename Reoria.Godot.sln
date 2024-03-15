@@ -7,11 +7,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reoria.Godot", "source\Reor
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{1AD8A84E-F332-4C7A-A9E9-B506E84E71B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reoria", "source\Reoria\Reoria.csproj", "{BBAFAD61-0D57-4148-9F69-5A7AF0BBD91B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		ExportDebug|Any CPU = ExportDebug|Any CPU
 		ExportRelease|Any CPU = ExportRelease|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7F2686D8-66BC-414D-9679-4C598687EBE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -20,11 +23,22 @@ Global
 		{7F2686D8-66BC-414D-9679-4C598687EBE5}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
 		{7F2686D8-66BC-414D-9679-4C598687EBE5}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
 		{7F2686D8-66BC-414D-9679-4C598687EBE5}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+		{7F2686D8-66BC-414D-9679-4C598687EBE5}.Release|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{7F2686D8-66BC-414D-9679-4C598687EBE5}.Release|Any CPU.Build.0 = ExportRelease|Any CPU
+		{BBAFAD61-0D57-4148-9F69-5A7AF0BBD91B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBAFAD61-0D57-4148-9F69-5A7AF0BBD91B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBAFAD61-0D57-4148-9F69-5A7AF0BBD91B}.ExportDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBAFAD61-0D57-4148-9F69-5A7AF0BBD91B}.ExportDebug|Any CPU.Build.0 = Debug|Any CPU
+		{BBAFAD61-0D57-4148-9F69-5A7AF0BBD91B}.ExportRelease|Any CPU.ActiveCfg = Release|Any CPU
+		{BBAFAD61-0D57-4148-9F69-5A7AF0BBD91B}.ExportRelease|Any CPU.Build.0 = Release|Any CPU
+		{BBAFAD61-0D57-4148-9F69-5A7AF0BBD91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBAFAD61-0D57-4148-9F69-5A7AF0BBD91B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7F2686D8-66BC-414D-9679-4C598687EBE5} = {1AD8A84E-F332-4C7A-A9E9-B506E84E71B3}
+		{BBAFAD61-0D57-4148-9F69-5A7AF0BBD91B} = {1AD8A84E-F332-4C7A-A9E9-B506E84E71B3}
 	EndGlobalSection
 EndGlobal
