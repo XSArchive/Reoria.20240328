@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{1AD8A8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reoria", "source\Reoria\Reoria.csproj", "{BBAFAD61-0D57-4148-9F69-5A7AF0BBD91B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reoria.Database", "source\Reoria.Database\Reoria.Database.csproj", "{5329AC9C-FC29-4DC7-A247-14B55E61166E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,14 @@ Global
 		{BBAFAD61-0D57-4148-9F69-5A7AF0BBD91B}.ExportRelease|Any CPU.Build.0 = Release|Any CPU
 		{BBAFAD61-0D57-4148-9F69-5A7AF0BBD91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBAFAD61-0D57-4148-9F69-5A7AF0BBD91B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5329AC9C-FC29-4DC7-A247-14B55E61166E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5329AC9C-FC29-4DC7-A247-14B55E61166E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5329AC9C-FC29-4DC7-A247-14B55E61166E}.ExportDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5329AC9C-FC29-4DC7-A247-14B55E61166E}.ExportDebug|Any CPU.Build.0 = Debug|Any CPU
+		{5329AC9C-FC29-4DC7-A247-14B55E61166E}.ExportRelease|Any CPU.ActiveCfg = Release|Any CPU
+		{5329AC9C-FC29-4DC7-A247-14B55E61166E}.ExportRelease|Any CPU.Build.0 = Release|Any CPU
+		{5329AC9C-FC29-4DC7-A247-14B55E61166E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5329AC9C-FC29-4DC7-A247-14B55E61166E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,5 +50,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{7F2686D8-66BC-414D-9679-4C598687EBE5} = {1AD8A84E-F332-4C7A-A9E9-B506E84E71B3}
 		{BBAFAD61-0D57-4148-9F69-5A7AF0BBD91B} = {1AD8A84E-F332-4C7A-A9E9-B506E84E71B3}
+		{5329AC9C-FC29-4DC7-A247-14B55E61166E} = {1AD8A84E-F332-4C7A-A9E9-B506E84E71B3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EE42EC9-2C93-484E-8A4F-E9F7CD860C4B}
 	EndGlobalSection
 EndGlobal
